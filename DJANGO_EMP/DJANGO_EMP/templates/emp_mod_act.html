@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+EMP_mod_act
+
+	
+{% if cnt == 1 %}
+	<script type="text/javascript">
+		alert("정상적으로 처리되었습니다.")
+		location.href="emp_list"	
+	</script>
+{% else %}
+  	<script type="text/javascript">
+  	window.back.history()
+	</script>
+	
+{% endif %}
+</body>
+</html>
